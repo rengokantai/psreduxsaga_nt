@@ -21,3 +21,12 @@ methods
 - Entire saga is run from beginning to end
 - At completion, new state is compared to expected value
 - APIs must be injected as dependencies
+
+
+#### Testing method comparison
+
+Standard Test | Alternative(e2e)
+---|---
+requires that call be used for functions|Call usage recommended but not required
+Cannot test application state againest expected values|Can test application state aginest expected values
+Outside APIs can be imported with no special considerations|Any outside APIs must be injected as dependencies
