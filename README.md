@@ -30,3 +30,9 @@ Standard Test | Alternative(e2e)
 requires that call be used for functions|Call usage recommended but not required
 Cannot test application state againest expected values|Can test application state aginest expected values
 Outside APIs can be imported with no special considerations|Any outside APIs must be injected as dependencies
+Tests are brief and simple to set up|Tests are complex and require preparation of mock store and PISs
+Test fails if yielded effects do not match expected values| Test fails if final application state foes not match expected values
+
+
+
+
